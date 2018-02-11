@@ -4,9 +4,9 @@ import com.lalitha.protected1.BaseClassOne;
 
 public class CheckingProtected1Class extends BaseClassOne{
     protected void method3(){
+        //with inheritance we can access protected method
         this.method1();
-        CheckingProtected1Class obj = new CheckingProtected1Class();
         BaseClassOne ob = new BaseClassOne();
-        obj.method1();
+        //ob.method1();
     }
 }
