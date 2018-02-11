@@ -1,6 +1,6 @@
-package com.lalitha.checkingdefault;
+package com.lalitha.defualt2;
 
-import com.lalitha.defaultmodifier.BaseClassOne;
+import com.lalitha.default1.BaseClassOne;
 
 public class CheckingDefaultClass extends BaseClassOne{
     public void checkingMethod(){
