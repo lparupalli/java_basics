@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 
 public class CheckPrime {
     private static int temp;
-    private boolean isPrime = true;999
+    private boolean isPrime = true;
         public static boolean isPrime ( int num){
         for (int i = 2; i <= num / 2; i++) {
             temp = num % i;
@@ -17,7 +17,6 @@ public class CheckPrime {
         public static void main (String[]args)throws Exception {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader buf = new BufferedReader(isr);
-        do {
             System.out.println("Enter a number");
             String str = buf.readLine();
             int num = Integer.parseInt(str);
