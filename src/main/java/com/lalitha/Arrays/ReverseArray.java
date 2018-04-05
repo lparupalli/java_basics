@@ -2,7 +2,7 @@ package com.lalitha.Arrays;
 
 public class ReverseArray {
 
-    public int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    public int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11};
 
     public ReverseArray() {
         System.out.println("Array before reverse");
